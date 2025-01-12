@@ -10,12 +10,12 @@ Outputs the extracted data in JSON format.
 
 2. Online 2D Diagram Extraction (online_2d_diagram_extraction.py)
 Purpose:
-This script performs a similar function as the offline version but uses an online generative AI model (gemini-2.0-flash-exp) via the google.genai library.
+*This script performs a similar function as the offline version but uses an online generative AI model (gemini-2.0-flash-exp) via the google.genai library.
 Key Features:
-Integrates with Google’s Generative AI API.
-Processes images and generates responses based on provided prompts.
-Implements safety settings for content generation.
-Handles prompts for extracting features from different diagram views.
+*Integrates with Google’s Generative AI API.
+*Processes images and generates responses based on provided prompts.
+*Implements safety settings for content generation.
+*Handles prompts for extracting features from different diagram views.
 
 3. Metadata Generation
 SQL Metadata (sql_meta_data_generation.py):
