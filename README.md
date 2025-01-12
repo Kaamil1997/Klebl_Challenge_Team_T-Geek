@@ -17,28 +17,27 @@ Key Features:
 *Implements safety settings for content generation.
 *Handles prompts for extracting features from different diagram views.
 
-3. Metadata Generation
-*SQL Metadata (sql_meta_data_generation.py):
-Key Features
-*NoSQL data model generation
-*Integration with LLM Foundation API
-*JSON output formatting
-
-
-4. Offline Table Extraction (table_offline_extraction.py)
+3. Offline Table Extraction (table_offline_extraction.py)
 Purpose:
 *This script identifies and extracts tabular data from images of documents using a YOLO-based object detection model.
 Key Features:
 *Initializes a YOLO model to detect regions of interest (e.g., tables) in an image.
 *Crops detected regions and saves them as separate images.
-*Uses a vision-language model to extract data from the cropped table images in both JSON and tabular formats.
+*Uses an In-house trained vision-language model to extract data from the cropped table images in both JSON and tabular formats.
 *Outputs structured data such as material specifications and dimensions.
 
-5. Online Table Extraction (table_online_extraction.py)
+4. Online Table Extraction (table_online_extraction.py)
 Purpose:
 *This script performs table extraction using an online LLM API to interpret detected tables in images.
 Key Features:
 *Similar workflow to the offline table extraction script but uses a language model API (gpt-4o-mini via LangChain).
 *Encodes images in base64 format for API requests.
 *Extracts structured data (e.g., plan keys, positions, dimensions) and outputs it as JSON or tables.
+
+5. Metadata Generation
+*SQL Metadata (sql_meta_data_generation.py):
+Key Features
+*NoSQL data model generation (JSON data)
+*SQL data plugin generation
+
 
