@@ -1,0 +1,70 @@
+.App {
+  text-align: center;
+}
+
+.nested-row td {
+  padding-left: 30px;
+}
+
+.h3 {
+  color: #121212;
+  font-style: italic;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.container2 {
+  padding: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.container {
+  padding: 40px;
+}
+.subcontainer {
+  padding: 0px 20px;
+}
+label {
+  display: inline-block;
+  width: 200px;
+}
+input {
+  border-radius: 0;
+  max-width: 240px;
+  border: none;
+  border-bottom: 1px solid black;
+  padding: 10px;
+  font-size: 16px;
+}
+
+input[type="file"] {
+  border: 1px solid rgba(131, 192, 245, 0.63);
+  border-radius: 8px;
+  background-color: aliceblue;
+  color: #363636;
+  padding: 40px;
+}
+
+input:focus {
+  outline: none; /* Remove default focus outline */
+}
+button {
+  background-color: #121212;
+  color: white;
+  font-size: 16px;
+  border-radius: 4px;
+  padding: 8px;
+  max-width: 200px;
+}
+.button-container {
+  display: flex;
+  gap: 12px;
+}
+
+pre {
+  background-color: #363636;
+  color: white;
+  padding: 8px;
+  border-radius: 8px;
+}

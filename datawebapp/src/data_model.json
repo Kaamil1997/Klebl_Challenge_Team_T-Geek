@@ -1,0 +1,106 @@
+{
+  "Plankopf": [
+    {
+      "Plankschuessel": "FT_XX_09-016_a_F",
+        "Stat.Pos": 20,
+        "Auftr.Nr.": "819-19",
+        "Index": "a",
+        "Fertigteil Position": "09-016",
+        "Stuck": 1,
+        "Volume(m3)": 6.56,
+        "Gewicht": 10.86
+    }
+  ],
+  "list_einbauteile": [
+    {
+      "Pos": 1247,
+      "Stck": 2,
+      "Bezeichnung": "Kugelkopf-Stabanker 870-10to; Zulagebewehrung nach Herstellerangaben"
+    },
+    {
+      "Pos": 2024,
+      "Stck": 2,
+      "Bezeichnung": "Ankerschiene 38/17 L=15cm verzinkt"
+    },
+    {
+      "Pos": 4061,
+      "Stck": 2,
+      "Bezeichnung": "Philipp PowerDuo-Schiene h=70mm, L=0.75m"
+    },
+    {
+      "Pos": 4062,
+      "Stck": 4,
+      "Bezeichnung": "Philipp PowerDuo-Schiene h=70mm, L=1.25m"
+    }
+  ],
+
+  "liste_Stahl": {
+    "B500A": [
+      {
+        "Pos": 1,
+        "Anz.": 49,
+        "⌀": 8,
+        "lange": 1.76,
+        "Bem.": "ohne"
+      },
+      {
+        "Pos": 2,
+        "Anz.": 12,
+        "⌀": 10,
+        "lange": 1.86,
+        "Bem.": "ohne"
+      },
+      {
+        "Pos": 3,
+        "Anz.": 10,
+        "⌀": 10,
+        "lange": 2.04,
+        "Bem.": "ohne"
+      },
+      {
+        "Pos": 4,
+        "Anz.": 4,
+        "⌀": 8,
+        "lange": 1.37,
+        "Bem.": "ohne"
+      },
+      {
+        "Pos": 5,
+        "Anz.": 4,
+        "⌀": 8,
+        "lange": 1.37,
+        "Bem.": "ohne"
+      }
+    ],
+    "SpST_1570_1770": [
+      {
+        "Pos": 50,
+        "Anz.": 12,
+        "⌀": 12.5,
+        "lange": 8.76,
+        "Bem.": "ohne"
+      }
+    ]
+  },
+
+  "Vorderansicht": {
+    "Beutell": {
+      "Lange_Gesamt": 9.24,
+      "Hoehne_Gesamt": 60
+    },
+    "Ausklinkung_links": {
+      "Lange": 26,
+      "Hoehne": 20
+    },
+    "Ausklinkung_rechts": {
+      "Lange": 22,
+      "Hoehne": 20
+    }
+  },
+
+  "Seitenansischt/Draufsicht": {
+    "Beutell": {
+      "Breite": 25
+    }
+  }
+}
